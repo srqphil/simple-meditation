@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="meditation.css">
 </head>
 <body>
-    <h1>Simple Meditation</h1>
+    <header>Simple Meditation</header>
+    <main id="welcome">
+        <h1>Welcome</h1>
+        <p>How long would you like to meditate?</p>
+        <div id=selecttime>
+            <select name="time" id="time">
+                <option value="select time">Select Session Length</option>
+                <option value="1">1 minute</option>
+                <option value="2">2 minutes</option>
+                <option value="3">3 minutes</option>
+                <option value="4">4 minutes</option>
+                <option value="5">5 minutes</option>
+            </select>
+            <p id="error"></p>
+        </div>
+        <button id="begin" onclick="begin()">Begin Session</button>
+    </main>
+    <script src="simplemeditation.js"></script>
 </body>
 </html>

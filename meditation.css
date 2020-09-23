@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=meditation.css.map */
+html, body {
+  padding: 0%;
+  margin: auto;
+  background-color: grey;
+  max-width: 600px;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 4px;
+}
+
+main {
+  text-align: center;
+  padding: 80px;
+}
+
+main * {
+  margin-bottom: 40px;
+}
+
+main h1 {
+  font-size: 48px;
+}
+
+main p {
+  font-size: 18px;
+}
+
+main #selecttime {
+  background-color: white;
+  padding: 20px 0px;
+}
+
+main #begin {
+  padding: 12px;
+}
+
+main #error {
+  margin: 0px;
+  color: red;
+}
+/*# sourceMappingURL=meditation.css.map */
