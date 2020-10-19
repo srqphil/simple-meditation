@@ -34,12 +34,13 @@ main #selecttime {
   padding: 20px 0px;
 }
 
-main #begin {
+main .button {
   padding: 12px;
 }
 
 main #error {
   margin: 0px;
   color: red;
+  font-size: 10px;
 }
 /*# sourceMappingURL=meditation.css.map */

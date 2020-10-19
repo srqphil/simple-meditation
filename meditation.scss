@@ -27,10 +27,11 @@ main {
         padding: 20px 0px;
     }
 
-    #begin {padding: 12px;}
+    .button {padding: 12px;}
 
     #error {
         margin: 0px;
         color: red;
+        font-size: 10px;
     }
 }
